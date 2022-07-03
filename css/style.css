@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Raleway:wght@100;200;300;400;500;600;700&family=Ubuntu:wght@300;400;500&display=swap');
+
+*{
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+body{
+    background: #f7f3f3;
+}
+.heading{
+    text-align: center;
+    font-size: 4.7745vh;
+    padding: 2.917vh 0;
+    color: #00cc99;
+}
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(29.177vh,1fr) );
+    grid-gap: 0.97656vw;
+    padding: 2.6525vh 1.3020vw;
+
+}
+
+.card-container .card{
+    padding:1.4262vh 1.6510vw ;
+    border: 3px solid #00cc99;
+    border-radius: 0.6510vw;
+    text-align: center;
+    background: #fff;
+    box-shadow:0.6631vh 0.3255vw #00cc99;
+}
+
+.card-container .card .card-icon{
+    margin-top: 1.3262vh; 
+}
+
+.card-container .card .card-icon span{
+    margin: 1.3262vh 0;
+    font-size: 4.6419vh;
+    color: #00cc99;
+}
+
+.card-container .card .card-titile{
+color: #00cc99;
+font-size: 2.7851vh;
+margin-top: 0.6631vh;
+}
+
+.card-container .card p{
+    font-size: 1.8567vh;
+    color: #999292;
+    padding: 1.3262vh 0.6510vw;
+}
+.card-container .card a{
+    color: #00cc99;
+    display: block;
+    font-size: 2.3872vh;
+    padding: 1.3262vh 0;
+}
+
+.card-container .card a:hover{
+    color: #7bd3bd;
+}
